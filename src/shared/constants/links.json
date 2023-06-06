@@ -1,0 +1,42 @@
+[
+	{
+		"label": ">> NEW DROP",
+		"route": "/newdrop"
+	},
+	{
+		"label": ">> UPCYCLING & CUSTOM PIECES",
+		"route": "/upcycling"
+	},
+	{
+		"label": "REMERAS",
+		"route": "/remeras"
+	},
+	{
+		"label": "ABRIGOS",
+		"route": "/abrigos"
+	},
+	{
+		"label": "ACCESORIOS",
+		"route": "/accesorios"
+	},
+	{
+		"label": "PANTALONES",
+		"route": "/pantalones"
+	},
+	{
+		"label": "SALE",
+		"route": "/sale"
+	},
+	{
+		"label": ">> COLECCIONES'22",
+		"route": "/colecciones"
+	},
+	{
+		"label": ">> CONTACTO",
+		"route": "/contacto"
+	},
+	{
+		"label": ">> FAQ",
+		"route": "/faq"
+	}
+]
