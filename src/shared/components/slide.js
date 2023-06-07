@@ -18,7 +18,7 @@ function Slide() {
 	return (
 		<div className="w-screen h-screen md:h-[50vh] relative" data-simple-slider>
 			{slides.map(({ src, alt, mediaSrc }) => (
-				<picture key={src} className="w-full  h-full">
+				<picture key={src} className="w-full h-full">
 					<source srcSet={mediaSrc} media={media} />
 					<Image
 						src={src}
@@ -26,7 +26,7 @@ function Slide() {
 						title={alt}
 						width={600}
 						height={600}
-						className=" w-full h-full absolute  object-cover"
+						className="w-full h-full absolute object-cover"
 					/>
 				</picture>
 			))}

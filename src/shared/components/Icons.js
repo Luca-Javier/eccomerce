@@ -25,12 +25,12 @@ export function MobileMenuIcon() {
 	)
 }
 
-export default function Logo() {
+export default function Logo({ sizeMultiplier }) {
 	return (
 		<Image
-			className="min-w-w-8  sm:w-1/12 lg:w-16"
-			width={iconsSize * 3}
-			height={iconsSize * 3}
+			className="min-w-8   lg:w-16"
+			width={iconsSize * sizeMultiplier}
+			height={iconsSize * sizeMultiplier}
 			alt="Brand logo image"
 			src="/assets/icons/logo.png"
 		/>

@@ -1,13 +1,22 @@
-import Image from "next/image"
+"use client"
 import Logo, { LoupIcon, ProfileIcon, ShopCarIcon } from "../Icons"
 import MobileNav from "./MobileNav"
 import Link from "next/link"
 import links from "@constants/links"
+import { useState } from "react"
 
 function Header() {
+	const [wasScrolled, setWasScrolled] = useState(false)
+
+	window.onscroll = () =>
+		window.scrollY > 400 ? setWasScrolled(true) : setWasScrolled(false)
+
 	return (
-		<header className="sticky md:static top-0 z-10 bg-[#fff]">
-			<marquee className="text-xs">
+		<header className="sticky flex flex-col md:static top-0 z-20 bg-[#fff]">
+			<marquee
+				className={`text-xs  transition-all duration-200  ${
+					wasScrolled ? "h-0" : "h-4"
+				}`}>
 				Argentina Envío Gratis en órdenes + $25.000 // Envíos Internacionales
 				por DHL (+200 USD ENVIO GRATIS)
 			</marquee>
@@ -17,8 +26,8 @@ function Header() {
 
 				<LoupIcon />
 
-				<Link href="/" className="flex-1 flex justify-center">
-					<Logo />
+				<Link href="/" style={{ marginInline: "auto" }}>
+					<Logo sizeMultiplier={wasScrolled ? 2 : 2.7} />
 				</Link>
 
 				<ProfileIcon />

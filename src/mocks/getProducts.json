@@ -1,0 +1,50 @@
+[
+	{
+		"id": 2,
+		"src": "/assets/products/product-2.webp",
+		"srcHover": "/assets/products/product-hover.webp",
+		"alt": "product",
+		"name": "Producto",
+		"price": 300
+	},
+	{
+		"id": 1,
+		"src": "/assets/products/product-1.webp",
+		"srcHover": "/assets/products/product-hover.webp",
+		"alt": "product",
+		"name": "Producto",
+		"price": 300
+	},
+	{
+		"id": 3,
+		"src": "/assets/products/product-3.webp",
+		"srcHover": "/assets/products/product-hover.webp",
+		"alt": "product",
+		"name": "Producto",
+		"price": 300
+	},
+	{
+		"id": 4,
+		"src": "/assets/products/product-4.webp",
+		"srcHover": "/assets/products/product-hover.webp",
+		"alt": "product",
+		"name": "Producto",
+		"price": 300
+	},
+	{
+		"id": 5,
+		"src": "/assets/products/product-5.webp",
+		"srcHover": "/assets/products/product-hover.webp",
+		"alt": "product",
+		"name": "Producto",
+		"price": 300
+	},
+	{
+		"id": 6,
+		"src": "/assets/products/product-6.webp",
+		"srcHover": "/assets/products/product-hover.webp",
+		"alt": "product",
+		"name": "Producto",
+		"price": 300
+	}
+]
