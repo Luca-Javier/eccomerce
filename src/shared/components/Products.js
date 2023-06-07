@@ -4,7 +4,8 @@ import Image from "next/image"
 function Products({ data }) {
 	const options = {}
 
-	const callback = (entries, observer) => {
+	//? maybe useEffect return unserbe
+	const callback = entries => {
 		entries.forEach(entry => {
 			if (entry.isIntersecting) {
 				entry.target.classList.remove("opacity-0")
